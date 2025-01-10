@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,11 +26,11 @@ export default function HomeLayout({
     <html lang="pt-br">
       <body
         className={`${geistSans.variable} ${geistMono.variable} 
-        m-0 p-0 rounded-none antialiased
-        bg-gradient-to-br from-[#D82818] to-[#000000]
-        `}
-      >
+        bg-gray-200
+        rounded-none antialiased`}>
+
         {children}
+        
       </body>
     </html>
   );
