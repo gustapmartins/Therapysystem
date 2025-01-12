@@ -17,7 +17,7 @@ export default function Button(props: IButton) {
                 href={props.href}
                 rel="noopener noreferrer"
                 target={props.target}
-                className="block py-6 mb-12 text-center text-xl font-bold text-white bg-[#D82818] rounded-[12px] hover:bg-[#9A190D]
+                className="block py-6 mb-12 text-center text-base font-bold text-white bg-[#D82818] rounded-[12px] hover:bg-[#9A190D]
             shadow-[6px_8px_0_rgba(0,0,0,1)] p-6"
             >
                 {props.text}

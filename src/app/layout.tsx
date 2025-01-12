@@ -24,12 +24,7 @@ export default function HomeLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} 
-        m-0 p-0 rounded-none antialiased
-        bg-gradient-to-br from-[#D82818] to-[#000000]
-        `}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
     </html>

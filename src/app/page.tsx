@@ -1,27 +1,17 @@
 import Button from "@/Components/Button";
 import Footer from "@/Components/Footer";
 import Hero from "@/Components/Hero";
+import Photo from "@/Components/Photo";
 import { buttonsMock } from "@/Mock/buttonsMock";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen ">
+    <div className="flex flex-col items-center justify-center min-h-screen mb-16">
       {/* Círculo da Imagem no Topo */}
-      <div className="mb-12">
-        <div className="w-60 h-60 rounded-full overflow-hidden shadow-[4px_6px_2px_2px_rgba(48,48,48,1)]">
-          <Image
-            src="/Assets/Logo.jpg"
-            alt="Avatar"
-            width={240}
-            height={240}
-            className="object-cover"
-          />
-        </div>
-      </div>
+      <Photo />
 
       {/* Título e Descrição */}
-      <Hero 
+      <Hero
         key={1}
         title="Therapysystem"
         description="Descubra mais sobre a banda e acompanhe suas novidades!"
@@ -29,8 +19,7 @@ export default function Home() {
       />
 
       {/* Links */}
-      <div className="w-full max-w-3xl px-4">
-
+      <div className="w-full max-w-3xl px-6 ">
         {buttonsMock.map((x, index) => (
           <Button
             key={index}
@@ -43,6 +32,6 @@ export default function Home() {
       </div>
 
       <Footer />
-    </main>
+    </div>
   );
 }

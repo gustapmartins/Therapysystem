@@ -4,4 +4,5 @@ export interface ICard {
     name: string;
     role: string;
     description: string;
+    href: string;    
 }

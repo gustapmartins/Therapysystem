@@ -14,8 +14,11 @@
   }
 }
 
-body {
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
   color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom right, #D82818, #000000);
 }

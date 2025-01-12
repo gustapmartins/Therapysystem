@@ -27,7 +27,7 @@ export default function HomeLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} 
         bg-gray-200
-        rounded-none antialiased`}>
+        rounded-none antialiased bg-gradient-to-br from-[#D82818] to-[#000000]`}>
 
         {children}
         
