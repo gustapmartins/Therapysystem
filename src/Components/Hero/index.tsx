@@ -1,4 +1,4 @@
-import { IHero } from "@/Interface/Components/IHero";
+import { IHero } from "src/Interface/Components/IHero";
 
 export default function Hero(props: IHero) {
     return (
