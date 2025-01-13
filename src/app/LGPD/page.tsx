@@ -1,6 +1,3 @@
-import Card from "@/Components/Card";
-import { bandMembers } from "@/Mock/bandMambers";
-
 export default function LGPDScreen() {
 
   return (

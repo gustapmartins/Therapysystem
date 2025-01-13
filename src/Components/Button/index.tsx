@@ -1,4 +1,4 @@
-import { IButton } from "@/Interface/Components/IButton";
+import { IButton } from "src/Interface/Components/IButton";
 import Link from "next/link";
 
 export default function Button(props: IButton) {
