@@ -1,4 +1,4 @@
-import Card from "src/Components/Card";
+import Card from "../../Components/Card";
 import { bandMembers } from "src/Mock/bandMambers";
 import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa";

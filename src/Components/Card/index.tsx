@@ -1,4 +1,4 @@
-import { ICard } from "src/Interface/Components/ICard";
+import { ICard } from "../../Interface/Components/ICard";
 import Link from "next/link";
 import Image from "next/image";
 import { GrInstagram } from "react-icons/gr";
