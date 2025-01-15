@@ -7,7 +7,7 @@ export default function Card(props: ICard) {
     return (
         <div className="py-8 flex flex-col items-center justify-center bg-[#131921] rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
             <div className="w-32 h-32 rounded-full overflow-hidden m-2">
-                <Image src={props.image} alt={props.name} className="object-cover"/>
+                <Image src={props.image} width={240} height={240} alt={props.name} className="object-cover"/>
             </div>
             <div className="px-6">
                 <h2 className="text-2xl text-[#D6DAE4] font-semibold">{props.name}</h2>

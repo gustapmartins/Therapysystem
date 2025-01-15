@@ -2,7 +2,7 @@ import Button from "../Components/Button";
 import Footer from "../Components/Footer";
 import Hero from "../Components/Hero";
 import Photo from "../Components/Photo";
-import { buttonsMock } from "src/Mock/buttonsMock";
+import { buttonsMock } from "../Mock/buttonsMock";
 
 export default function Home() {
   return (
